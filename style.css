@@ -2,16 +2,25 @@
     --radius:83px;
 }
 
+.bgimage{
+    background-image: url(img/Hnet-image.gif);
+    filter: blur(8px); 
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    display: block;
+    height: 100%;
+}
 .index{
     background: black;
-    background-image: url(img/Hnet-image.gif);
+    /*background-image: url(img/Hnet-image.gif);*/
     display: grid;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: white;
-    background-repeat: no-repeat;
-    background-size: 100%; 
+    
 }   
+
+
 
 /*@media (min-width: 1200px){
     .index {
